@@ -1,0 +1,45 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/Single_p.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/gowin_pllvr/gowin_pllvr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/gowin_sp/sp_framebuffer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/hdmi_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/num_of_ones.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/sram_framebuffer_test_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/synchronous_encoder_serializer.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/impl/temp/rtl_parser.result",
+ "Top" : "sram_frambuffer_test_top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="sram_frambuffer_test_top" Register="19" Lut="46" T_Register="154(19)" T_Alu="58(0)" T_Lut="230(46)" T_Bsram="10(0)">
+ <SubModule name="SRAM_inst" Register="7" Lut="8" Bsram="10" T_Register="7(7)" T_Lut="8(8)" T_Bsram="10(10)"/>
+ <SubModule name="clock_5x"/>
+ <SubModule name="video_transmitter" Register="21" Alu="19" Lut="17" T_Register="128(21)" T_Alu="58(19)" T_Lut="176(17)">
+  <SubModule name="blue_tmds" Register="37" Alu="10" Lut="51" T_Register="37(37)" T_Alu="13(10)" T_Lut="59(51)">
+   <SubModule name="ones_in_tmds_stage1" Alu="3" Lut="8" T_Alu="3(3)" T_Lut="8(8)"/>
+  </SubModule>
+  <SubModule name="green_tmds" Register="35" Alu="10" Lut="42" T_Register="35(35)" T_Alu="13(10)" T_Lut="50(42)">
+   <SubModule name="ones_in_tmds_stage1" Alu="3" Lut="8" T_Alu="3(3)" T_Lut="8(8)"/>
+  </SubModule>
+  <SubModule name="red_tmds" Register="35" Alu="10" Lut="42" T_Register="35(35)" T_Alu="13(10)" T_Lut="50(42)">
+   <SubModule name="ones_in_tmds_stage1" Alu="3" Lut="8" T_Alu="3(3)" T_Lut="8(8)"/>
+  </SubModule>
+ </SubModule>
+</Module>

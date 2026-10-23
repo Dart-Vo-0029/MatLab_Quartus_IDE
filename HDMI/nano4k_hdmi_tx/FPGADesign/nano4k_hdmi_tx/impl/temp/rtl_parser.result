@@ -1,0 +1,192 @@
+[
+ {
+  "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+  "InstLine" : 1,
+  "InstName" : "rgb8_to_rgb24",
+  "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "rgb8_to_rgb24",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+    "InstLine" : 5,
+    "InstName" : "redConverter",
+    "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+    "ModuleLine" : 43,
+    "ModuleName" : "b3_to_b8"
+   },
+   {
+    "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+    "InstLine" : 10,
+    "InstName" : "greenConverter",
+    "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+    "ModuleLine" : 43,
+    "ModuleName" : "b3_to_b8"
+   },
+   {
+    "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+    "InstLine" : 15,
+    "InstName" : "blueConverter",
+    "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+    "ModuleLine" : 61,
+    "ModuleName" : "b2_to_b8"
+   }
+  ]
+ },
+ {
+  "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/gowin_sp/sp_framebuffer.v",
+  "InstLine" : 9,
+  "InstName" : "sp_framebuffer",
+  "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/gowin_sp/sp_framebuffer.v",
+  "ModuleLine" : 9,
+  "ModuleName" : "sp_framebuffer"
+ },
+ {
+  "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/sram_framebuffer_test_top.v",
+  "InstLine" : 1,
+  "InstName" : "sram_frambuffer_test_top",
+  "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/sram_framebuffer_test_top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "sram_frambuffer_test_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/sram_framebuffer_test_top.v",
+    "InstLine" : 32,
+    "InstName" : "SRAM_inst",
+    "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/Single_p.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "Single_p"
+   },
+   {
+    "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/sram_framebuffer_test_top.v",
+    "InstLine" : 42,
+    "InstName" : "clock_5x",
+    "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/gowin_pllvr/gowin_pllvr.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_PLLVR"
+   },
+   {
+    "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/sram_framebuffer_test_top.v",
+    "InstLine" : 47,
+    "InstName" : "video_transmitter",
+    "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/hdmi_tx.v",
+    "ModuleLine" : 7,
+    "ModuleName" : "hdmi_tx",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/hdmi_tx.v",
+      "InstLine" : 72,
+      "InstName" : "blue_tmds",
+      "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/synchronous_encoder_serializer.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "synchronous_encoder_serializer",
+      "SubInsts" : [
+       {
+        "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/synchronous_encoder_serializer.v",
+        "InstLine" : 23,
+        "InstName" : "ones_in_pixel",
+        "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/num_of_ones.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "num_of_ones"
+       },
+       {
+        "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/synchronous_encoder_serializer.v",
+        "InstLine" : 29,
+        "InstName" : "ones_in_tmds_stage1",
+        "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/num_of_ones.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "num_of_ones"
+       }
+      ]
+     },
+     {
+      "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/hdmi_tx.v",
+      "InstLine" : 82,
+      "InstName" : "green_tmds",
+      "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/synchronous_encoder_serializer.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "synchronous_encoder_serializer",
+      "SubInsts" : [
+       {
+        "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/synchronous_encoder_serializer.v",
+        "InstLine" : 23,
+        "InstName" : "ones_in_pixel",
+        "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/num_of_ones.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "num_of_ones"
+       },
+       {
+        "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/synchronous_encoder_serializer.v",
+        "InstLine" : 29,
+        "InstName" : "ones_in_tmds_stage1",
+        "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/num_of_ones.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "num_of_ones"
+       }
+      ]
+     },
+     {
+      "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/hdmi_tx.v",
+      "InstLine" : 92,
+      "InstName" : "red_tmds",
+      "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/synchronous_encoder_serializer.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "synchronous_encoder_serializer",
+      "SubInsts" : [
+       {
+        "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/synchronous_encoder_serializer.v",
+        "InstLine" : 23,
+        "InstName" : "ones_in_pixel",
+        "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/num_of_ones.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "num_of_ones"
+       },
+       {
+        "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/synchronous_encoder_serializer.v",
+        "InstLine" : 29,
+        "InstName" : "ones_in_tmds_stage1",
+        "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/num_of_ones.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "num_of_ones"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/sram_framebuffer_test_top.v",
+    "InstLine" : 63,
+    "InstName" : "colorConverter",
+    "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+    "ModuleLine" : 22,
+    "ModuleName" : "rgb6_to_rgb24",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+      "InstLine" : 27,
+      "InstName" : "redConverter",
+      "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+      "ModuleLine" : 61,
+      "ModuleName" : "b2_to_b8"
+     },
+     {
+      "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+      "InstLine" : 32,
+      "InstName" : "greenConverter",
+      "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+      "ModuleLine" : 61,
+      "ModuleName" : "b2_to_b8"
+     },
+     {
+      "InstFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+      "InstLine" : 37,
+      "InstName" : "blueConverter",
+      "ModuleFile" : "E:/Hais_files/RTL_train/HDMI/nano4k_hdmi_tx/FPGADesign/nano4k_hdmi_tx/src/color_converters.v",
+      "ModuleLine" : 61,
+      "ModuleName" : "b2_to_b8"
+     }
+    ]
+   }
+  ]
+ }
+]
